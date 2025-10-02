@@ -1,0 +1,77 @@
+[
+  {
+    "timeline": [
+      {
+        "processId": 2,
+        "start": 0,
+        "end": 1
+      },
+      {
+        "processId": 3,
+        "start": 2,
+        "end": 20
+      },
+      {
+        "processId": 1,
+        "start": 20,
+        "end": 32
+      }
+    ],
+    "processMetrics": [
+      {
+        "processId": 2,
+        "arrivalTime": 0,
+        "burstTime": 1,
+        "completionTime": 1,
+        "turnaroundTime": 1,
+        "waitingTime": 0,
+        "responseTime": 0
+      },
+      {
+        "processId": 3,
+        "arrivalTime": 2,
+        "burstTime": 18,
+        "completionTime": 20,
+        "turnaroundTime": 18,
+        "waitingTime": 0,
+        "responseTime": 0
+      },
+      {
+        "processId": 1,
+        "arrivalTime": 3,
+        "burstTime": 12,
+        "completionTime": 32,
+        "turnaroundTime": 29,
+        "waitingTime": 17,
+        "responseTime": 17
+      }
+    ],
+    "metrics": {
+      "avgWaitingTime": 5.666666666666667,
+      "avgTurnaroundTime": 16,
+      "avgResponseTime": 5.666666666666667,
+      "cpuUtilization": 96.875
+    },
+    "processes": [
+      {
+        "id": 1,
+        "arrivalTime": 3,
+        "burstTime": 12,
+        "priority": 1
+      },
+      {
+        "id": 2,
+        "arrivalTime": 0,
+        "burstTime": 1,
+        "priority": 1
+      },
+      {
+        "id": 3,
+        "arrivalTime": 2,
+        "burstTime": 18,
+        "priority": 1
+      }
+    ],
+    "algorithm": "fcfs"
+  }
+]

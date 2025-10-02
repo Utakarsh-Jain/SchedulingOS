@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "arrivalTime": 3,
+    "burstTime": 12,
+    "priority": 1
+  },
+  {
+    "id": 2,
+    "arrivalTime": 0,
+    "burstTime": 1,
+    "priority": 1
+  },
+  {
+    "id": 3,
+    "arrivalTime": 2,
+    "burstTime": 18,
+    "priority": 1
+  }
+]
